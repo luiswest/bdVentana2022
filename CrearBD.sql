@@ -1,7 +1,7 @@
 use master
 go
 -- Crea la base de datos si existía la elimina primero
-if (DB_ID('bodega') is NOT NULL)
+if (DB_ID('videoClub') is NOT NULL)
     drop database videoClub
 create database videoClub
 go
